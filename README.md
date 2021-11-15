@@ -39,3 +39,6 @@ export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@loca
 * [Heroku](https://heroku.com)
 * HTML
 * CSS
+
+## Known Bugs
+* There are no known bugs currently but pull requests are allowed incase you spot a bug
