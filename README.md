@@ -25,3 +25,8 @@ export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@loca
   ```bash
   python3.8 manage.py server
   ```
+
+5. Testing the application
+  ```bash
+  python3.8 manage.py test
+  ```
