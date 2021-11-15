@@ -9,3 +9,9 @@ This is a flask application where users can blog and comment on other people's b
 1. Cloning the repository:
   ```bash
   https://github.com/Ian-Wa/pitch2.git
+
+  2. Move to the folder and install requirements
+  ```bash
+  cd pitch2
+  pip install -r requirements.txt
+  ```
