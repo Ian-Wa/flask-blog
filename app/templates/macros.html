@@ -5,7 +5,7 @@
     <div class="panel col-sm mt-2 p-3" style="background-color: rgb(239, 239, 245, 0.6); padding:3%;">
         <div class="diplayblog column-md-4">
             <a href="{{url_for('main.write_comment', id = blog.id)}}">
-                <h3 class="title">
+                <h3 class="title" style="color: orange;">
                     {{blog.blog_title}}
                 </h3>
             </a>
@@ -41,7 +41,7 @@
                 </a>
             </div>
 
-            <div class=col-md-6>
+            <div class=col-md-5>
                 <a href="{{url_for('main.write_comment',id=blog.id)}}" type="button" style="border: none;"
                     class="btn btn-primary d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

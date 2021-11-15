@@ -7,13 +7,13 @@ from flask_mail import Mail
 app = Flask(__name__)
 mail = Mail(app)
 
-sender_email = 'ian.wanarua@student.moringaschool.com'
-subject_pref = 'Jay-Blogs'
+sender_email = 'ian.wanjira@student.moringaschool.com'
+subject_pref = 'Everyday-Blogs'
 
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'ian.wanarua@student.moringaschool.com'
-app.config['MAIL_PASSWORD'] = 'Chicken@7'
+app.config['MAIL_USERNAME'] = 'ian.wanjira@student.moringaschool.com'
+app.config['MAIL_PASSWORD'] = 'sct221-0494'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 mail = Mail(app)

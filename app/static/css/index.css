@@ -1,13 +1,7 @@
 *{
     font-family: 'Times New Roman', Times, serif;
 }
-body {
-    background-image: url(./blog2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
+
 
 /* #overlay {
     padding-bottom: 1%;

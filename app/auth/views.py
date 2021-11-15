@@ -19,7 +19,7 @@ def login():
 
         flash('Invalid username or Password')
 
-    title = "Jay-Blogs"
+    title = "Everyday-Blogs"
     return render_template('auth/login.html',
                            login_form=login_form,
                            title=title)
@@ -35,7 +35,7 @@ def register():
                     password=form.password.data)
         db.session.add(user)
         db.session.commit()
-        mail_message("Welcome to Jay-Blogs",
+        mail_message("Welcome to Everyday-Blogs",
                      "email/welcome_user",
                      user.email,
                      user=user)
