@@ -15,3 +15,8 @@ This is a flask application where users can blog and comment on other people's b
   cd Blogs-master
   pip install -r requirements.txt
   ```
+
+  3. Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
