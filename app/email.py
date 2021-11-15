@@ -25,7 +25,6 @@ def mail_message(subject, template, to, **kwargs):
     email.body = render_template(template + ".txt", **kwargs)
     mail.send(email)
 
-
 def sub_message(subject, template, to, **kwargs):
     email = Message(subject_pref + " : " + subject,
                     sender=sender_email, recipients=[to])
