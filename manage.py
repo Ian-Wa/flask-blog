@@ -5,8 +5,8 @@ from app.models import User, Blog, Comment
 from flask import Flask, session
 
 # Creating app instance
-# app = create_app('production')
-app = create_app('development')
+app = create_app('production')
+#app = create_app('development')
 
 
 manager = Manager(app)
