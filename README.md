@@ -46,3 +46,6 @@ export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@loca
 ## Contact Information 
 
 If you have any question or contributions, please email me at [Ian Wanjira](https://www.ianwanjira4@gmail.com)
+
+## License
+* *MIT License*
