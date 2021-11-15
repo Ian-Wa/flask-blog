@@ -42,3 +42,7 @@ export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@loca
 
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [Ian Wanjira](https://www.ianwanjira4@gmail.com)
